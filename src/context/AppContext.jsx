@@ -7,7 +7,7 @@ const AppProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const trending = data.filter(item => item.isTrending);
-  const recommended = data.filter(item => !item.isTrending); // or use isRecommended if it exists
+  const recommended = data.filter(item => item.isTrending); // or use isRecommended if it exists
 
   return (
     <AppContext.Provider value={{ trending, recommended, searchTerm, setSearchTerm }}>

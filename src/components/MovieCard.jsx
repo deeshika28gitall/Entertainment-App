@@ -12,7 +12,7 @@ const MovieCard = ({ movie }) => (
     color: 'white'
   }}>
     <img
-      src={movie.thumbnail?.regular?.large}
+      src={movie.thumbnail}
       alt={movie.title}
       style={{ width: '100%', height: '320px', objectFit: 'cover' }}
     />
