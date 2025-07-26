@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Stranger Things",
+    "thumbnail":"/assets/strangerthings.jpg",
+    "isTrending": true,
+    "isRecommended": true
+  },
+  {
+    "title": "Breaking Bad",
+    "thumbnail":"/assets/breakingbad.jpg",
+    "isTrending": true,
+    "isRecommended": false
+  },
+  {
+    "title": "The Witcher",
+    "thumbnail": "/assets/thewitcher.jpg",
+    "isTrending": true,
+    "isRecommended": true
+  },
+  {
+    "title": "Money Heist",
+    "thumbnail": "/assets/moneyheist.jpg",
+    "isTrending": true,
+    "isRecommended": true
+  }
+  
+]
